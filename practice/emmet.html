@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>emmet실습</title>
+    link:css link:favicon
+  </head>
+  <body>
+    <!-- h1 -->
+    <h1></h1>
+
+    <!-- h1+h1+p -->
+    <!-- + : 인접 형제 생성자 -->
+    <h1></h1>
+    <h1></h1>
+    <p></p>
+
+    <!-- h1*3 -->
+    <!-- *니까 +를 3번 반복 -->
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+
+    <!-- h1{hello world}*10  -->
+    <!-- {a} : 해당 태그 사이에 a 값 입력 -->
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+
+    <!-- h1#hojun -->
+    <!-- #a : id 값에 a 입력 -->
+    <h1 id="hojun"></h1>
+
+    <!-- h1.hoju -->
+    <!-- .a : class 값에 a 입력 -->
+    <h1 class="hoju"></h1>
+
+    <!--(div>table>(tr>(td*2))*3)+(footer>p) -->
+    <!-- () : 그룹으로 묶음 -->
+    <!-- > : 자식 생성자 -->
+    <div>
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <p></p>
+    </footer>
+
+    <!-- div>table>(tr>td*2)*3+footer>p 라고 써도 동일한 결과 -->
+    <div>
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <footer>
+          <p></p>
+        </footer>
+      </table>
+    </div>
+
+    <!-- div#one.c1.c2.c3 -->
+    <!-- c1, c2, c3를 모두 적용 -->
+    <div id="one" class="c1 c2 c3"></div>
+
+    <!-- ul>li.item$*5 -->
+    <!-- $ : 번호 부여 $갯수만큼 앞자리수에 0을 추가 -->
+    <ul>
+      <li class="item1"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+      <li class="item5"></li>
+    </ul>
+
+    <!-- a{Click} -->
+    <a href="">Click</a>
+
+    <!-- lorem img:z -->
+    <img src="" alt="" sizes="" srcset="" />
+
+    <!-- lorem*5는 5개의 문장 -->
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores ea
+    atque dolor reiciendis? Consectetur enim eligendi dolores! Quos alias
+    corrupti laudantium ducimus provident omnis dolore nostrum at perspiciatis!
+    Quaerat? Maiores deserunt id, sequi minus, molestias odit explicabo nam
+    sapiente iure accusamus ea quia alias exercitationem illo perferendis esse
+    quam accusantium magnam, eligendi voluptates! Explicabo sit error quam
+    molestiae officiis! Sunt, optio unde! Ex ipsam aut soluta, magni debitis
+    consequuntur quidem optio iste sunt ipsum in tenetur quod veritatis rerum,
+    ullam voluptatum quo deleniti consectetur omnis provident possimus obcaecati
+    harum. Beatae iste dignissimos eligendi, adipisci rem quo cum maxime aliquam
+    sint. Corporis, facere. Cumque saepe quis nihil, in sit numquam
+    necessitatibus eaque accusamus laboriosam vel, fuga obcaecati dolor ipsa
+    neque. Optio, magni dolorum enim id, aliquam excepturi quam vero labore
+    omnis cupiditate beatae non. Recusandae est perferendis soluta nisi?
+    Consectetur sapiente minima assumenda minus porro quis sunt? Tempora, autem
+    quisquam?
+
+    <!-- lorem5는 5개의 단어 -->
+    Lorem ipsum dolor sit amet.
+
+    <!-- [a='value1' b="value2" c=1] -->
+    <div a="value1" b="value2" c="1"></div>
+
+    <!-- a[href='www.naver.com'] -->
+    <a href="www.naver.com"></a>
+  </body>
+</html>
