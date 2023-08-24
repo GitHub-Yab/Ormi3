@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // const x = ?
+      // x는 2보다 크거나 7보다 작은 값
+      const x = 1;
+      const result_x = x > 2 || x < 7;
+      console.log(result_x);
+
+      // y는 2보다 크지 않거나 7보다 작은 값
+      const y = 1;
+      const result_y = !(y > 2) || y < 7;
+      console.log(result_y);
+
+      // 함수
+      // 일련의 과정을 거쳐 결과값을 돌려주는 코드
+      function plus2(x) {
+        result = x + 2;
+
+        return result;
+      }
+      const plus2Result = plus2(1337);
+      console.log(plus2Result);
+
+      // 익명 함수
+
+      // 화살표 함수
+
+      // 함수 즉시 사용
+      ((x, y) => x + y)(4, 6);
+    </script>
+  </body>
+</html>
